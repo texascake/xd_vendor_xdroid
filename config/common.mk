@@ -147,3 +147,7 @@ include vendor/xdroid/config/aosp_audio.mk
 
 # Include Lawnchair
 $(call inherit-product, vendor/lawnchair/lawnchair.mk)
+
+# AdBlock
+PRODUCT_PACKAGES += \
+    hosts.xd_adblock
